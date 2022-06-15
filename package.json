@@ -1,0 +1,30 @@
+{
+  "name": "@khleow/vitemodulesample",
+  "private": false,
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "exports": {
+    ".": "./dist/vitemodulesample2.es.js"
+  },
+  "types": "types/my-element.d.ts",
+  "files": [
+    "dist",
+    "types"
+  ],
+  "repository": "khleow/vitemodulesample",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build"
+  },
+  "dependencies": {
+    "lit": "^2.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.41",
+    "typescript": "^4.5.4",
+    "vite": "^2.9.9"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
