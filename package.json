@@ -1,17 +1,11 @@
 {
   "name": "@khleow/vitemodulesample",
-  "private": false,
-  "version": "1.0.0",
+  "version": "0.0.7",
   "main": "src/index.ts",
-  "exports": {
-    ".": "./dist/vitemodulesample2.es.js"
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/khleow/vitemodulesample.git"
   },
-  "types": "types/my-element.d.ts",
-  "files": [
-    "dist",
-    "types"
-  ],
-  "repository": "khleow/vitemodulesample",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build"
@@ -25,6 +19,6 @@
     "vite": "^2.9.9"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "description": ""
 }
